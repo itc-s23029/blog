@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import styles from 'styles/logo.module.css'
 
-const Logo = () => {
+const Logo = ({ boxOn = false }) => {
   return (
     <Link href='/'>
-      CUBE
+      <href className={boxOn ? styles.box : styles.basic}>CUBE</href>
     </Link>
   )
 }
