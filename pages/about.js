@@ -14,7 +14,14 @@ import eyecatch from 'next-react-website/blog-app-router/images/about.jpg'
 const About = () => {
   return (
     <Container>
-      <Meta pageTitle='アバウト' />
+      <Meta
+        pageTitle='アバウト'
+        pageDesc='About development activities'
+        pageImg={eyecatch.src}
+        pageImgW={eyecatch.width}
+        pagaImaH={eyecatch.width}
+        pagaImgH={eyecatch.height}
+      />
       <Hero title='About' subtitle='About development activities' />
 
       <figure>
