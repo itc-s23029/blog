@@ -35,3 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+#API_KEY
+API_KEY=oKfPXIQFzNCYOPNpAFi2fx1Qj3SfhW38RGo9
+SERVICE_DOMAIN=s23029-blog
